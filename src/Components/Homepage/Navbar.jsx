@@ -14,7 +14,7 @@ function Navbar() {
                     <a href='#'>Contact Us</a>
                 </div>
                 <div className='nav-button'>
-                    <button>sign up</button>
+                    <button>sign in</button>
                 </div>
             </nav>
         </header>

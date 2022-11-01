@@ -53,6 +53,7 @@
   padding: 7px;
   text-align: center;
   text-decoration: none;
+  border: none;
   text-transform: capitalize;
   color: #fff;
   border-radius: 5px;
@@ -61,11 +62,85 @@
 }
 
 
-/* ********** HeroSection ********** */
+/* ********** Hero Section ********** */
 
 .info-section {
   height: 15rem;
   background-color: rgba(166, 192, 192, 0.253);
   text-align: center;
   padding: 100px 0;
+}
+
+/* ********** Card Section ********** */
+
+.card-section {
+  height: 25rem;
+  background-color: rgba(110, 171, 171, 0.253);
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-0.5%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.card-info {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: rgb(22, 31, 131);
+  margin-bottom: 1.5rem;
+}
+
+.card-desc {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  color: cadetblue;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+  display: block;
+  width: 50%;
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0ff;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btn:hover {
+  color: #fff;
+  background-color: #000;
 }
