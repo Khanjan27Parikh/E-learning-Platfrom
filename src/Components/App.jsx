@@ -1,8 +1,8 @@
 import React from 'react';
-import Homepage from './Homepage';
+import Homepage from './Homepage/Homepage';
 
 function App() {
-    return <Homepage/>
+    return <Homepage />
 }
 
 export default App;

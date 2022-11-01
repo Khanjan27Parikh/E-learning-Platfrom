@@ -59,3 +59,13 @@
   cursor: pointer;
   outline: none;
 }
+
+
+/* ********** HeroSection ********** */
+
+.info-section {
+  height: 15rem;
+  background-color: rgba(166, 192, 192, 0.253);
+  text-align: center;
+  padding: 100px 0;
+}
