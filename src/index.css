@@ -75,6 +75,7 @@
 
 .card-section {
   height: 25rem;
+  padding: 18% 3%;
   background-color: rgba(110, 171, 171, 0.253);
   display: flex;
   justify-content: space-around;
@@ -143,4 +144,91 @@
 .card-btn:hover {
   color: #fff;
   background-color: #000;
+}
+
+/* ********** Footer ********** */
+
+.footer {
+  width: 100%;
+  height: 15rem;
+  background-color: rgba(4, 95, 95, 0.571);
+  display: grid;
+  grid-template-columns: 10rem 1fr 1.5fr 1fr 1fr 10rem;
+}
+
+.footer-logo {
+  display: flex;
+  grid-column: 2/3;
+  font-size: 2rem;
+  color: rgba(86, 10, 167, 0.909);
+  font-weight: bold;
+  align-items: center;
+}
+
+.footer-links {
+  grid-column: 3/4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(32, 69, 139);
+}
+
+.social-media {
+  grid-column: 4/5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.footer-heading {
+  display: flex;
+  justify-content: right;
+  color: rgb(42, 87, 171);
+}
+
+.social-media .media-icons {
+  display: flex;
+  justify-content: space-around;
+  color: aquamarine;
+}
+
+.call {
+  grid-column: 5/6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.call-heading {
+  display: flex;
+  justify-content: right;
+  color: rgb(42, 87, 171);
+}
+
+.call .call-no {
+  display: flex;
+  justify-content: right;
+  color: aquamarine;
+}
+
+.call .call-no span {
+  margin-left: 5px;
+}
+
+/* ------ Footer bottom ------ */
+
+.footer-bottom {
+  width: 100%;
+  height: 2rem;
+  background-color: rgba(22, 82, 82, 0.482);
+}
+
+.cpright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: rgb(42, 87, 171);
 }
