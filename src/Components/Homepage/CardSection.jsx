@@ -4,7 +4,7 @@ import CData from './CData';
 
 function CardSection() {
     return (
-        <div className='card-section'>
+        <div className='card_section'>
             <Card
                 imgsrc={CData[0].imgsrc}
                 cname={CData[0].cname}

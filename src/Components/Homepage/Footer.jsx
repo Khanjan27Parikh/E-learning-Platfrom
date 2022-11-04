@@ -1,33 +1,34 @@
 import React from 'react';
-import { FaInstagram, FaFacebook, FaTwitter, FaPhone } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
+import { FaInstagram, FaFacebook, FaTwitter, FaPhoneAlt } from "react-icons/fa";
 
 function Footer() {
     return (
         <>
             <div className='footer'>
-                <div className='footer-logo'>LIVDO</div>
-                <div className='footer-links'>
-                    <a href='#'>Home</a>
-                    <a href='#'>Course</a>
-                    <a href='#'>Blog</a>
-                    <a href='#'>Contact Us</a>
+                <div className='footer_logo'>LIVDO</div>
+                <div className='footer_links'>
+                    <NavLink to='/' activeClassName='active_class'>Home</NavLink>
+                    <NavLink to='#' activeClassName='active_class'>Course</NavLink>
+                    <NavLink to='#' activeClassName='active_class'>Blog</NavLink>
+                    <NavLink to='/contact' activeClassName='active_class'>Contact Us</NavLink>
                 </div>
-                <div className='social-media'>
-                    <h3 className='footer-heading'>Follow us</h3>
-                    <div className='media-icons'>
+                <div className='social_media'>
+                    <h3 className='footer_heading'>Follow us</h3>
+                    <div className='media_icons'>
                         <FaInstagram />
                         <FaFacebook />
                         <FaTwitter />
                     </div>
                 </div>
                 <div className='call'>
-                    <h3 className='call-heading'>Call us</h3>
-                    <div className='call-no'>
-                        <FaPhone /> <span>9328582436</span>
+                    <h3 className='call_heading'>Call us</h3>
+                    <div className='call_no'>
+                        <FaPhoneAlt /> <span>9328582436</span>
                     </div>
                 </div>
             </div>
-            <div className='footer-bottom'>
+            <div className='footer_bottom'>
                 <div className='cpright'>
                     <p> <span>&copy;</span> LIVDO - 2022 </p>
                 </div>
