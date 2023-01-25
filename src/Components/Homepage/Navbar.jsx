@@ -6,7 +6,7 @@ function Navbar() {
         <header>
             <nav className='navbar'>
                 <div className='logo'>
-                    <h2>LIVDO</h2>
+                    <h2>TECHNOSTACK</h2>
                 </div>
                 <div className='nav_links'>
                     <NavLink activeClassName='active_class' to='/'>Home</NavLink>

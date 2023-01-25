@@ -6,7 +6,7 @@ function Footer() {
     return (
         <>
             <div className='footer'>
-                <div className='footer_logo'>LIVDO</div>
+                <div className='footer_logo'>TECHNOSTACK</div>
                 <div className='footer_links'>
                     <NavLink to='/' activeClassName='active_class'>Home</NavLink>
                     <NavLink to='#' activeClassName='active_class'>Course</NavLink>
@@ -30,7 +30,7 @@ function Footer() {
             </div>
             <div className='footer_bottom'>
                 <div className='cpright'>
-                    <p> <span>&copy;</span> LIVDO - 2022 </p>
+                    <p> <span>&copy;</span> TECHNOSTACK - 2023 </p>
                 </div>
             </div>
         </>
